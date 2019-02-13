@@ -1,0 +1,125 @@
+#date {
+	color: white;
+	width: 450px;
+	height: 100px;
+	text-align: center;
+	outline-style: solid;
+  }
+
+body {
+  margin: 0;
+  font-size: 25px;
+  background-color: #1374D5;
+  color: #EEF1FA;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 25px;
+  text-align: center;
+  font-family: Verdana;
+  background-image: url('https://www.photo-survey.it/wp-content/uploads/2017/03/coding.jpg');
+  color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0D2998;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar .active {
+  background-color: orange;
+  color: white;
+}
+
+#bigtitle {
+  background-color: #1C216B;
+  font-family: Verdana;
+  font-size: 50px;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#article {
+  background-color: #132DD5;
+  font-family: Verdana;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#article2 {
+  background-color: #5124E5;
+  font-family: Verdana;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#title {
+  background-color: #231C3B;
+  font-family: Verdana;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#image {
+  float: right;
+}
+
+td, th {
+  padding: 15px;
+}
+
+thead {
+  border: 1px solid white;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  background-color: #13B3ED;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana;
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
