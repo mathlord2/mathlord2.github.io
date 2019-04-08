@@ -123,3 +123,11 @@ button {
   padding: 20px;
   cursor: pointer;
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #074676;
+  font-size: 30px;
+  font-family: Verdana;
+}
