@@ -1,7 +1,43 @@
 #date {
+	color: white;
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	outline-style: solid;
+  }
+
+body {
+  margin: 0;
+  font-size: 25px;
+  background-color: #1374D5;
+  color: #EEF1FA;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 25px;
+  text-align: center;
+  font-family: Verdana;
+  background-image: url('https://www.photo-survey.it/wp-content/uploads/2017/03/coding.jpg');
   color: white;
-  width: 350px;
-  height: 100px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0D2998;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana;
 }
 
 #navbar a:hover {
@@ -79,11 +115,11 @@ h1 {
 
 button {
   background-color: #13B3ED;
-  border-radius: 20px;
   color: white;
   text-align: center;
   font-size: 40px;
   font-family: Verdana;
+  border-radius: 20px;
   padding: 20px;
   cursor: pointer;
 }
