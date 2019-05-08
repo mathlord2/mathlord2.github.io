@@ -148,7 +148,7 @@ h1 {
 
 button {
   background-color: #13B3ED;
-  border: 1px solid #13B3ED;
+  border-radiusL 20px;
   color: white;
   text-align: center;
   font-size: 40px;
