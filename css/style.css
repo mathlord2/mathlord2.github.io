@@ -99,6 +99,10 @@ td, th {
   width: 100%;
 }
 
+#article2 td div:hover {
+  background-color: #98A6DE;
+}
+
 #article2 td div p {
   margin-left: 40px;
 }
@@ -127,6 +131,7 @@ a button {
   padding: 20px;
   cursor: pointer;
   border: 1px solid #1162B3;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a button:hover {
