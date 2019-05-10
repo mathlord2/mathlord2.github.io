@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-body {
+html, body {
   margin: 0;
   font-size: 25px;
   color: #EEF1FA;
   font-family: 'Ubuntu', sans-serif;
+  height: 100%;
 }
 
 .header {
@@ -15,6 +16,10 @@ body {
   color: white;
   height: 300px;
   line-height: 1.8;
+}
+
+a, div, button {
+  transition: 0.3s;
 }
 
 #navbar {
@@ -55,7 +60,7 @@ body {
 }
 
 #article {
-  background-color: #132DD5;
+  background: linear-gradient(90deg, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
   font-size: 25px;
   padding: 30px;
   border-radius: 20px;
@@ -63,13 +68,58 @@ body {
   margin-bottom: 10px;
 }
 
+#article td div {
+  border: 0;
+  outline: 0;
+  border-bottom: 5px solid white;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+}
+
+#article td div:hover {
+  background-color: #98A6DE;
+  color: black;
+}
+
+#article td div p {
+  margin-left: 40px;
+}
+
 #article2 {
-  background-color: #5124E5;
+  background: linear-gradient(90deg, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
   font-size: 25px;
   padding: 30px;
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 45%;
+  height: 90%;
+}
+
+#article2 img {
+  width: 60%;
+}
+
+#article3 {
+  background: linear-gradient(90deg, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
+  padding: 30px;
+}
+
+.lists {
+  display: flex;
+  padding: 20px;
+}
+
+#list {
+  padding: 10px;
+  border: 5px solid white;
+  margin: 0px 10px;
+}
+
+#list ul {
+  list-style-type: circle;
+  line-height: 1.7;
 }
 
 #title {
@@ -85,25 +135,20 @@ body {
   float: right;
 }
 
+#link {
+  width: 40%;
+  padding: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+#link:hover {
+  background-color: #98A6DE;
+  color: black;
+}
+
 td, th {
   padding: 20px;
-}
-
-#article2 td div {
-  border: 0;
-  outline: 0;
-  border-bottom: 5px solid white;
-  padding: 20px;
-  display: flex;
-  width: 100%;
-}
-
-#article2 td div:hover {
-  background-color: #98A6DE;
-}
-
-#article2 td div p {
-  margin-left: 40px;
 }
 
 thead {
@@ -122,26 +167,26 @@ h1 {
 }
 
 a button {
-  background-color: #1162B3;
+  background-color: #0286C8;
   color: white;
   text-align: center;
   font-size: 40px;
   border-radius: 20px;
   padding: 20px;
   cursor: pointer;
-  border: 1px solid #1162B3;
+  border: 1px solid #0286C8;
   font-family: 'Ubuntu', sans-serif;
 }
 
 a button:hover {
   background-color: white;
   border: 1px solid white;
-  color: #1162B3;
+  color: #0286C8;
 }
 
 footer {
   text-align: center;
   padding: 20px;
   background-color: #074676;
-  font-size: 30px;
+  font-size: 20px;
 }
