@@ -8,6 +8,10 @@ html, body {
   height: 100%;
 }
 
+p {
+  font-size: 10px;
+}
+
 .header {
   background-color: #f1f1f1;
   padding: 100px;
