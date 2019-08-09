@@ -26,14 +26,14 @@ a, div, button {
   transition: 0.3s;
 }
 
-#navbar {
+.navbar {
   overflow: hidden;
   background-color: #0A2948;
   position: fixed;
   width: 100%;
 }
 
-#navbar a {
+.navbar a {
   float: left;
   display: block;
   color: white;
@@ -43,17 +43,17 @@ a, div, button {
   font-size: 20px;
 }
 
-#navbar a:hover {
+.navbar a:hover {
   background-color: #ddd;
   color: black;
 }
 
-#navbar .active {
+.navbar .active {
   background-color: orange;
   color: white;
 }
 
-#bigtitle {
+.bigtitle {
   background-color: #1C216B;
   font-size: 50px;
   padding: 40px;
@@ -63,7 +63,7 @@ a, div, button {
   font-weight: bold;
 }
 
-#article {
+.article {
   background: linear-gradient(90deg, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
   font-size: 25px;
   padding: 30px;
@@ -72,7 +72,7 @@ a, div, button {
   margin-bottom: 10px;
 }
 
-#article td div {
+.article td div {
   border: 0;
   outline: 0;
   border-bottom: 5px solid white;
@@ -81,16 +81,16 @@ a, div, button {
   width: 100%;
 }
 
-#article td div:hover {
+.article td div:hover {
   background-color: #98A6DE;
   color: black;
 }
 
-#article td div p {
+.article td div p {
   margin-left: 40px;
 }
 
-#article2 {
+.article2 {
   background: linear-gradient(90deg, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
   font-size: 25px;
   padding: 30px;
@@ -101,11 +101,11 @@ a, div, button {
   height: 100%;
 }
 
-#article2 img {
+.article2 img {
   width: 40%;
 }
 
-#article3 {
+.article3 {
   background: linear-gradient(90deg, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
   padding: 30px;
 }
@@ -115,18 +115,18 @@ a, div, button {
   padding: 20px;
 }
 
-#list {
+.list {
   padding: 10px;
   border: 5px solid white;
   margin: 0px 10px;
 }
 
-#list ul {
+.list ul {
   list-style-type: circle;
   line-height: 1.7;
 }
 
-#title {
+.title {
   background-color: #231C3B;
   font-size: 40px;
   padding: 30px;
@@ -135,18 +135,18 @@ a, div, button {
   margin-bottom: 10px;
 }
 
-#image {
+.image {
   float: right;
 }
 
-#link {
+.link {
   width: 40%;
   padding: 30px;
   margin-bottom: 30px;
   display: inline-block;
 }
 
-#link:hover {
+.link:hover {
   background-color: #98A6DE;
   color: black;
 }
