@@ -97,12 +97,17 @@ a, div, button {
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 45%;
-  height: 120%;
+  width: 45vh;
+  height: 100vh;
+  float: left;
+}
+
+.article2:nth-child(2n) {
+  float: right;
 }
 
 .article2 img {
-  width: 40%;
+  width: 40vh;
 }
 
 .article3 {
