@@ -97,7 +97,7 @@ a, div, button {
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 45vh;
+  width: 45%;
   height: 100vh;
   float: left;
 }
@@ -107,7 +107,7 @@ a, div, button {
 }
 
 .article2 img {
-  width: 40vh;
+  width: 40%;
 }
 
 .article3 {
