@@ -163,19 +163,23 @@ footer {
     padding: 20px;
     background-color: #074676;
     font-size: 20px;
-}
 
-.contact {
-    display: flex;
-    text-align: center;
+    .contact {
+        display: flex;
+        text-align: center;
 
-    i {
-        color: grey;
-        font-size: 20px;
-        margin: 10px;
-    }
+        a {
+            margin: 10px;
+            i {
+                color: grey;
+                font-size: 20px;
+            }
+        }
 
-    i:hover {
-        color: white;
+        a:hover {
+            i {
+                color: white;
+            }
+        }
     }
 }

@@ -130,15 +130,15 @@ footer {
   padding: 20px;
   background-color: #074676;
   font-size: 20px; }
-
-.contact {
-  display: flex;
-  text-align: center; }
-  .contact i {
-    color: grey;
-    font-size: 20px;
-    margin: 10px; }
-  .contact i:hover {
-    color: white; }
+  footer .contact {
+    display: flex;
+    text-align: center; }
+    footer .contact a {
+      margin: 10px; }
+      footer .contact a i {
+        color: grey;
+        font-size: 20px; }
+    footer .contact a:hover i {
+      color: white; }
 
 /*# sourceMappingURL=style.css.map */
