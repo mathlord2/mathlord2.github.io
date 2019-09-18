@@ -70,6 +70,11 @@ a, div, button {
     font-weight: bold;
 }
 
+.article {
+    background: rgb(91, 91, 255);
+    padding: 30px;
+}
+
 .project {
     background: linear-gradient(to right, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
     font-size: 25px;
@@ -84,6 +89,10 @@ a, div, button {
     img {
         width: 40%;
     }
+}
+
+.project:nth-child(2n) {
+    float: left;
 }
 
 .article2 {

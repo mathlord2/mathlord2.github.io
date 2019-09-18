@@ -56,6 +56,10 @@ a, div, button {
   margin-bottom: 10px;
   font-weight: bold; }
 
+.article {
+  background: #5b5bff;
+  padding: 30px; }
+
 .project {
   background: linear-gradient(to right, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
   font-size: 25px;
@@ -68,6 +72,9 @@ a, div, button {
   float: right; }
   .project img {
     width: 40%; }
+
+.project:nth-child(2n) {
+  float: left; }
 
 .article2 {
   background: linear-gradient(90deg, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
