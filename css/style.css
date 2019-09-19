@@ -4,10 +4,11 @@ html, body {
   font-size: 25px;
   color: #EEF1FA;
   font-family: 'Ubuntu', sans-serif;
-  height: 100%; }
+  height: 100%;
+  background: linear-gradient(#acacac, #f3f3f3) fixed; }
 
 p {
-  font-size: 20px; }
+  font-size: 22px; }
 
 h1 {
   text-align: center;
@@ -22,10 +23,10 @@ h1 {
   height: 300px;
   line-height: 1.8; }
 
-a, div, button {
+a, button {
   text-decoration: none;
   cursor: pointer;
-  transition: 0.3s; }
+  color: white; }
 
 .navbar {
   overflow: hidden;
@@ -39,10 +40,11 @@ a, div, button {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px; }
-    .navbar a .active {
-      background-color: orange;
-      color: white; }
+    font-size: 20px;
+    transition: 0.3s; }
+  .navbar .active {
+    background-color: orange;
+    color: white; }
   .navbar a:hover {
     background-color: #ddd;
     color: black; }
@@ -72,6 +74,23 @@ a, div, button {
   float: right; }
   .project img {
     width: 40%; }
+  .project a {
+    color: white; }
+    .project a button {
+      transition: 0.3s;
+      background-color: #0286C8;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      border-radius: 10px;
+      padding: 20px;
+      cursor: pointer;
+      border: 1px solid #0286C8;
+      font-family: 'Ubuntu', sans-serif; }
+    .project a button:hover {
+      background-color: white;
+      border: 1px solid white;
+      color: #0286C8; }
 
 .project:nth-child(2n) {
   float: left; }
@@ -89,7 +108,8 @@ a, div, button {
     margin: 0px 10px; }
     .lists .list ul {
       list-style-type: circle;
-      line-height: 1.7; }
+      line-height: 1.7;
+      text-align: left; }
 
 .title {
   background-color: #231C3B;
@@ -100,14 +120,12 @@ a, div, button {
   margin-bottom: 10px; }
 
 .link {
-  width: 40%;
-  padding: 30px;
   margin-bottom: 30px;
-  display: inline-block; }
+  display: inline-block;
+  transition: 0.3s; }
 
 .link:hover {
-  background-color: #98A6DE;
-  color: black; }
+  color: #e2e2e2; }
 
 td, th {
   padding: 20px; }
@@ -115,34 +133,18 @@ td, th {
 thead {
   border: 1px solid white; }
 
-a {
-  color: white; }
-  a button {
-    background-color: #0286C8;
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    border-radius: 10px;
-    padding: 20px;
-    cursor: pointer;
-    border: 1px solid #0286C8;
-    font-family: 'Ubuntu', sans-serif; }
-  a button:hover {
-    background-color: white;
-    border: 1px solid white;
-    color: #0286C8; }
-
 footer {
   text-align: center;
   padding: 20px;
   background-color: #074676;
   font-size: 20px; }
   footer .contact {
-    display: flex;
+    display: inline-block;
     text-align: center; }
     footer .contact a {
       margin: 10px; }
       footer .contact a i {
+        transition: 0.3s;
         color: grey;
         font-size: 20px; }
     footer .contact a:hover i {

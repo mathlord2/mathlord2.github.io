@@ -6,10 +6,11 @@ html, body {
     color: #EEF1FA;
     font-family: 'Ubuntu', sans-serif;
     height: 100%;
+    background: linear-gradient(rgb(172, 172, 172), rgb(243, 243, 243)) fixed;
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h1 {
@@ -27,10 +28,10 @@ h1 {
     line-height: 1.8;
 }
 
-a, div, button {
+a, button {
     text-decoration: none;
     cursor: pointer;
-    transition: 0.3s;
+    color: white;
 }
 
 .navbar {
@@ -47,11 +48,12 @@ a, div, button {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 20px;
+        transition: 0.3s;
+    }
 
-        .active {
-            background-color: orange;
-            color: white;
-        }
+    .active {
+        background-color: orange;
+        color: white;
     }
 
     a:hover {
@@ -89,6 +91,29 @@ a, div, button {
     img {
         width: 40%;
     }
+
+    a {
+        color: white;
+
+        button {
+            transition: 0.3s;
+            background-color: #0286C8;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 10px;
+            padding: 20px;
+            cursor: pointer;
+            border: 1px solid #0286C8;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        button:hover {
+            background-color: white;
+            border: 1px solid white;
+            color: #0286C8;
+        }
+    }
 }
 
 .project:nth-child(2n) {
@@ -112,6 +137,7 @@ a, div, button {
         ul {
             list-style-type: circle;
             line-height: 1.7;
+            text-align: left;
         }
     }
 }
@@ -126,45 +152,21 @@ a, div, button {
 }
 
 .link {
-    width: 40%;
-    padding: 30px;
     margin-bottom: 30px;
     display: inline-block;
+    transition: 0.3s;
 }
 
 .link:hover {
-    background-color: #98A6DE;
-    color: black;
+    color: rgb(226, 226, 226);
 }
 
 td, th {
-  padding: 20px;
+    padding: 20px;
 }
 
 thead {
-  border: 1px solid white;
-}
-
-a {
-    color: white;
-
-    button {
-        background-color: #0286C8;
-        color: white;
-        text-align: center;
-        font-size: 40px;
-        border-radius: 10px;
-        padding: 20px;
-        cursor: pointer;
-        border: 1px solid #0286C8;
-        font-family: 'Ubuntu', sans-serif;
-    }
-
-    button:hover {
-        background-color: white;
-        border: 1px solid white;
-        color: #0286C8;
-    }
+    border: 1px solid white;
 }
 
 footer {
@@ -174,12 +176,14 @@ footer {
     font-size: 20px;
 
     .contact {
-        display: flex;
+        display: inline-block;
         text-align: center;
 
         a {
             margin: 10px;
+
             i {
+                transition: 0.3s;
                 color: grey;
                 font-size: 20px;
             }
