@@ -28,6 +28,20 @@ a, button {
   cursor: pointer;
   color: white; }
 
+button {
+  transition: 0.3s;
+  background-color: #0983ca;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  border: none; }
+
+button:hover {
+  background-color: #35bcfa; }
+
 .navbar {
   overflow: hidden;
   background-color: #0A2948;
@@ -73,24 +87,11 @@ a, button {
   height: 100vh;
   float: right; }
   .project img {
-    width: 40%; }
+    margin-bottom: 10%;
+    width: 40%;
+    height: 10%; }
   .project a {
     color: white; }
-    .project a button {
-      transition: 0.3s;
-      background-color: #0286C8;
-      color: white;
-      text-align: center;
-      font-size: 40px;
-      border-radius: 10px;
-      padding: 20px;
-      cursor: pointer;
-      border: 1px solid #0286C8;
-      font-family: 'Ubuntu', sans-serif; }
-    .project a button:hover {
-      background-color: white;
-      border: 1px solid white;
-      color: #0286C8; }
 
 .project:nth-child(2n) {
   float: left; }
@@ -149,5 +150,16 @@ footer {
         font-size: 20px; }
     footer .contact a:hover i {
       color: white; }
+
+.projectHighlight {
+  background: linear-gradient(to bottom right, #84c8ff, #3434fc);
+  padding: 2%;
+  border-radius: 10px;
+  width: 96%;
+  margin-bottom: 30px; }
+  .projectHighlight p {
+    text-align: left; }
+  .projectHighlight img {
+    margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */

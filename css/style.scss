@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+$button-background: rgb(9, 131, 202);
+$button-hover: rgb(53, 188, 250);
+
 html, body {
     margin: 0;
     font-size: 25px;
@@ -32,6 +35,22 @@ a, button {
     text-decoration: none;
     cursor: pointer;
     color: white;
+}
+
+button {
+    transition: 0.3s;
+    background-color: $button-background;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+
+button:hover {
+    background-color: $button-hover;
 }
 
 .navbar {
@@ -89,30 +108,13 @@ a, button {
     float: right;
 
     img {
+        margin-bottom: 10%;
         width: 40%;
+        height: 10%;
     }
 
     a {
         color: white;
-
-        button {
-            transition: 0.3s;
-            background-color: #0286C8;
-            color: white;
-            text-align: center;
-            font-size: 40px;
-            border-radius: 10px;
-            padding: 20px;
-            cursor: pointer;
-            border: 1px solid #0286C8;
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        button:hover {
-            background-color: white;
-            border: 1px solid white;
-            color: #0286C8;
-        }
     }
 }
 
@@ -194,5 +196,21 @@ footer {
                 color: white;
             }
         }
+    }
+}
+
+.projectHighlight {
+    background: linear-gradient(to bottom right, rgb(132, 200, 255), rgb(52, 52, 252));
+    padding: 2%;
+    border-radius: 10px;
+    width: 96%;
+    margin-bottom: 30px;
+
+    p {
+        text-align: left;
+    }
+
+    img {
+        margin-bottom: 40px;
     }
 }
