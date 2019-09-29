@@ -5,28 +5,32 @@ html, body {
   color: #EEF1FA;
   font-family: 'Ubuntu', sans-serif;
   height: 100%;
-  background: linear-gradient(#acacac, #f3f3f3) fixed; }
+  background: linear-gradient(#acacac, #f3f3f3) fixed;
+}
 
 p {
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 h1 {
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .header {
   background-color: #f1f1f1;
-  padding: 100px;
   text-align: center;
-  background-image: url("https://www.insidehighered.com/sites/default/server_files/media/iStock-636447976.jpg");
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaper-house.com%2Fdata%2Fout%2F12%2Fwallpaper2you_486284.png&f=1&nofb=1");
   color: white;
-  height: 300px;
-  line-height: 1.8; }
+  min-height: 80vh;
+  padding-top: 50vh;
+}
 
 a, button {
   text-decoration: none;
   cursor: pointer;
-  color: white; }
+  color: white;
+}
 
 button {
   transition: 0.3s;
@@ -37,31 +41,37 @@ button {
   border-radius: 10px;
   padding: 30px;
   font-family: 'Ubuntu', sans-serif;
-  border: none; }
+  border: none;
+}
 
 button:hover {
-  background-color: #35bcfa; }
+  background-color: #35bcfa;
+}
 
 .navbar {
   overflow: hidden;
   background-color: #0A2948;
   position: fixed;
-  width: 100%; }
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 0.3s; }
-  .navbar .active {
-    background-color: orange;
-    color: white; }
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black; }
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.navbar .active {
+  background-color: orange;
+  color: white;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 .bigtitle {
   background-color: #1C216B;
@@ -70,11 +80,13 @@ button:hover {
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 10px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .article {
   background: #5b5bff;
-  padding: 30px; }
+  padding: 30px;
+}
 
 .project {
   background: linear-gradient(to right, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
@@ -85,32 +97,40 @@ button:hover {
   margin-bottom: 10px;
   width: 45%;
   height: 110vh;
-  float: right; }
-  .project img {
-    margin-bottom: 10%;
-    width: 40%;
-    height: 10%; }
-  .project a {
-    color: white; }
+  float: right;
+}
+.project img {
+  margin-bottom: 10%;
+  width: 40%;
+  height: 10%;
+}
+.project a {
+  color: white;
+}
 
 .project:nth-child(2n) {
-  float: left; }
+  float: left;
+}
 
 .article2 {
   background: linear-gradient(90deg, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
-  padding: 30px; }
+  padding: 30px;
+}
 
 .lists {
   display: flex;
-  padding: 20px; }
-  .lists .list {
-    padding: 10px;
-    border: 5px solid white;
-    margin: 0px 10px; }
-    .lists .list ul {
-      list-style-type: circle;
-      line-height: 1.7;
-      text-align: left; }
+  padding: 20px;
+}
+.lists .list {
+  padding: 10px;
+  border: 5px solid white;
+  margin: 0px 10px;
+}
+.lists .list ul {
+  list-style-type: circle;
+  line-height: 1.7;
+  text-align: left;
+}
 
 .title {
   background-color: #231C3B;
@@ -118,48 +138,61 @@ button:hover {
   padding: 30px;
   border-radius: 20px;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .link {
   margin-bottom: 30px;
   display: inline-block;
-  transition: 0.3s; }
+  transition: 0.3s;
+}
 
 .link:hover {
-  color: #e2e2e2; }
+  color: #e2e2e2;
+}
 
 td, th {
-  padding: 20px; }
+  padding: 20px;
+}
 
 thead {
-  border: 1px solid white; }
+  border: 1px solid white;
+}
 
 footer {
   text-align: center;
   padding: 20px;
   background-color: #074676;
-  font-size: 20px; }
-  footer .contact {
-    display: inline-block;
-    text-align: center; }
-    footer .contact a {
-      margin: 10px; }
-      footer .contact a i {
-        transition: 0.3s;
-        color: grey;
-        font-size: 20px; }
-    footer .contact a:hover i {
-      color: white; }
+  font-size: 20px;
+}
+footer .contact {
+  display: inline-block;
+  text-align: center;
+}
+footer .contact a {
+  margin: 10px;
+}
+footer .contact a i {
+  transition: 0.3s;
+  color: grey;
+  font-size: 20px;
+}
+footer .contact a:hover i {
+  color: white;
+}
 
 .projectHighlight {
   background: linear-gradient(to bottom right, #84c8ff, #3434fc);
   padding: 2%;
   border-radius: 10px;
   width: 96%;
-  margin-bottom: 30px; }
-  .projectHighlight p {
-    text-align: left; }
-  .projectHighlight img {
-    margin-bottom: 40px; }
+  margin-bottom: 30px;
+}
+.projectHighlight p {
+  text-align: left;
+}
+.projectHighlight img {
+  margin-bottom: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
