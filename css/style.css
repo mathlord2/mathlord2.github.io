@@ -119,12 +119,13 @@ button:hover {
 
 .lists {
   display: flex;
-  padding: 20px;
+  padding: 0.5vh;
+  margin-bottom: 10px;
 }
 .lists .list {
-  padding: 10px;
+  padding: 1vh;
   border: 5px solid white;
-  margin: 0px 10px;
+  margin: 0px 1vh;
 }
 .lists .list ul {
   list-style-type: circle;
