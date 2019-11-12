@@ -97,7 +97,7 @@ button:hover {
   margin-bottom: 10px;
   width: 45%;
   height: 110vh;
-  float: right;
+  float: left;
 }
 .project img {
   margin-bottom: 10%;
@@ -109,7 +109,7 @@ button:hover {
 }
 
 .project:nth-child(2n) {
-  float: left;
+  float: right;
 }
 
 .article2 {
