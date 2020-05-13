@@ -5,7 +5,7 @@ html, body {
   color: #EEF1FA;
   font-family: 'Ubuntu', sans-serif;
   height: 100%;
-  background: linear-gradient(#acacac, #f3f3f3) fixed;
+  background: linear-gradient(grey, #d4d4d4) fixed;
 }
 
 p {
@@ -18,12 +18,97 @@ h1 {
 }
 
 .header {
-  background-color: #f1f1f1;
   text-align: center;
   background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaper-house.com%2Fdata%2Fout%2F12%2Fwallpaper2you_486284.png&f=1&nofb=1");
   color: white;
   min-height: 80vh;
   padding-top: 50vh;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.m-intro {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+.m-intro .e-text {
+  width: 80%;
+  position: relative;
+}
+.m-intro .e-text h1 {
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 108px;
+  line-height: 180px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 30px 0;
+  position: relative;
+}
+.m-intro .e-text .subtitle {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.m-intro .e-text .preamble {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.e-particles-blue {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 90%;
+  opacity: 0.4;
+  transform: translate(-50%, -50%);
+}
+
+.e-particles-purple {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
 }
 
 a, button {
@@ -50,6 +135,7 @@ button:hover {
 
 .navbar {
   overflow: hidden;
+  z-index: 1;
   background-color: #0A2948;
   position: fixed;
   width: 100%;
@@ -96,7 +182,7 @@ button:hover {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 45%;
-  height: 110vh;
+  height: 100vh;
   float: left;
 }
 .project img {
@@ -119,7 +205,7 @@ button:hover {
 
 .lists {
   display: flex;
-  padding: 0.5vh;
+  padding: 40px;
   margin-bottom: 10px;
 }
 .lists .list {
