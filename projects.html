@@ -32,7 +32,26 @@
   </div>
 
   <div class="projectHighlight">
-    <h1 align="center">Project Highlight (TOHacks 2020) - COV-Vision</h1>
+    <h1 align="center">Project Highlight (Personal) - Fresh-and-Rotten-Fruits</h1>
+    <p>Curious about implementing machine learning into a web app, I created an application that classifies fresh and rotten fruits. A trained PyTorch CNN model
+      (with 0.07 evaluation loss and 99% evaluation accuracy on apples, oranges, and bananas) runs on a Flask backend server, and the frontend uploads fruit images
+      to the backend, allowing the model to analyze them and return an output.
+    </p>
+    <center>
+      <img src="images/fruit-classification.png" height=30% width=50%>
+      <br>
+      <a href="https://github.com/mathlord2/Fresh-and-Rotten-Fruits" target="_blank"><button>View Source Code</button></a>
+    </center>
+  </div>
+
+  <center class="bigtitle">
+    Hacks/Projects
+  </center>
+
+  <div class="project">
+    <div class="title">
+      <b>TOHacks 2020 - COV-Vision</b>
+    </div>
     <p>COV-Vision is a web platform that helps doctors diagnose COVID-19 in their patients via machine learning and send diagnostic data to them in a streamlined way.
       Users sign in with their Google/email account via Firebase authentication. After a doctor logs in, they can upload an image of a patient's chest x-ray and send it to the Node.js
       backend server, where a Keras ML model analyzes it and checks if the patient is tested positive or negative. This data then gets send to the patient, who can access
@@ -45,17 +64,13 @@
     </center>
   </div>
 
-  <center class="bigtitle">
-    Hacks/Projects
-  </center>
-
   <div class="project">
     <div class="title">
       <b>WinHacks 2020 - COV-AID</b>
     </div>
     <p>COV-AID is a web application that greatly improves the process of receiving financial aid during the COVID-19 crisis with blockchain technology.
       After a user logs in with Metamask, they can submit an image of their government ID, which is analyzed with Google Cloud's Vision API and a Javascript algorithm,
-      and the output is sent to an express.js and MongoDB backend server through IPFS to determine if the user is eligible for financial aid. If eligible, Metamask and
+      and the output is sent to an Express.js and MongoDB backend server through IPFS to determine if the user is eligible for financial aid. If eligible, Metamask and
       our smart contracts will prompt the transaction in the blockchain, making the process very secure and efficient. Our project won WinHacks' Most Innovative Hack
       against COVID-19 Award ($1000 CAD prize).
     </p>
