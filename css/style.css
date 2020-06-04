@@ -151,7 +151,7 @@ button:hover {
   transition: 0.3s;
 }
 .navbar .active {
-  background-color: orange;
+  background-color: #734dff;
   color: white;
 }
 .navbar a:hover {
