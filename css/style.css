@@ -17,14 +17,6 @@ h1 {
   font-weight: bold;
 }
 
-.header {
-  text-align: center;
-  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaper-house.com%2Fdata%2Fout%2F12%2Fwallpaper2you_486284.png&f=1&nofb=1");
-  color: white;
-  min-height: 80vh;
-  padding-top: 50vh;
-}
-
 @-webkit-keyframes rotate {
   0% {
     transform: rotate(0);
@@ -80,10 +72,6 @@ h1 {
   border-bottom: 1px solid #fff;
   margin: 30px 0;
   position: relative;
-}
-.m-intro .e-text .subtitle {
-  font-weight: 600;
-  text-transform: uppercase;
 }
 .m-intro .e-text .preamble {
   max-width: 80%;
@@ -249,7 +237,6 @@ thead {
 .awards {
   border: 3px solid white;
   border-radius: 10px;
-  font-size: 0.7em;
   table-layout: fixed;
 }
 
