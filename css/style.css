@@ -206,15 +206,12 @@ button:hover {
 
 .lists {
   display: flex;
-  padding: 40px;
   margin-bottom: 10px;
-  max-width: 90%;
-  margin-left: 3%;
 }
 .lists .list {
   padding: 20px;
   border: 5px solid white;
-  margin: 0px 10px;
+  margin: 0% 1%;
 }
 .lists .list ul {
   list-style-type: circle;
