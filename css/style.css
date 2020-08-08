@@ -183,12 +183,13 @@ button:hover {
   margin: 10px 0px;
   width: 45%;
   height: 100vh;
+  line-height: 1.5;
   float: left;
 }
 .project img {
   margin-bottom: 10%;
-  width: 40%;
-  height: 10%;
+  width: 50%;
+  height: 30%;
 }
 .project a {
   color: white;
@@ -213,7 +214,7 @@ button:hover {
 .lists .list {
   padding: 20px;
   border: 5px solid white;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 .lists .list ul {
   list-style-type: circle;
@@ -248,6 +249,13 @@ thead {
   border: 1px solid white;
 }
 
+.awards {
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 0.7em;
+  table-layout: fixed;
+}
+
 footer {
   text-align: center;
   padding: 20px;
@@ -273,6 +281,7 @@ footer .contact a:hover i {
 .projectHighlight {
   background: linear-gradient(to bottom right, #84c8ff, #3434fc);
   padding: 2%;
+  line-height: 1.5;
   border-radius: 10px;
   width: 96%;
   margin-bottom: 30px;
@@ -282,6 +291,8 @@ footer .contact a:hover i {
 }
 .projectHighlight img {
   margin-bottom: 40px;
+  width: 50%;
+  height: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */

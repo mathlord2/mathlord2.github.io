@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+html, body {
+  margin: 0;
+  font-size: 25px;
+  color: #EEF1FA;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+  background: linear-gradient(grey, #d4d4d4) fixed; }
+
+p {
+  font-size: 22px; }
+
+h1 {
+  text-align: center;
+  font-weight: bold; }
+
+.header {
+  text-align: center;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaper-house.com%2Fdata%2Fout%2F12%2Fwallpaper2you_486284.png&f=1&nofb=1");
+  color: white;
+  min-height: 80vh;
+  padding-top: 50vh; }
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+@-moz-keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+@-o-keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+.m-intro {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  position: relative; }
+  .m-intro .e-text {
+    width: 80%;
+    position: relative; }
+    .m-intro .e-text h1 {
+      color: white;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 108px;
+      line-height: 180px;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      margin: 30px 0;
+      position: relative; }
+    .m-intro .e-text .subtitle {
+      font-weight: 600;
+      text-transform: uppercase; }
+    .m-intro .e-text .preamble {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto; }
+
+.e-particles-blue {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 90%;
+  opacity: 0.4;
+  transform: translate(-50%, -50%); }
+
+.e-particles-purple {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1; }
+
+a, button {
+  text-decoration: none;
+  cursor: pointer;
+  color: white; }
+
+button {
+  transition: 0.3s;
+  background-color: #0983ca;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  border: none; }
+
+button:hover {
+  background-color: #35bcfa; }
+
+.navbar {
+  overflow: hidden;
+  z-index: 1;
+  background-color: #0A2948;
+  position: fixed;
+  width: 100%; }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s; }
+  .navbar .active {
+    background-color: #734dff;
+    color: white; }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black; }
+
+.bigtitle {
+  background-color: #1C216B;
+  font-size: 50px;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block; }
+
+.article {
+  background: #5b5bff;
+  padding: 30px; }
+
+.project {
+  background: linear-gradient(to right, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 5%;
+  border-radius: 20px;
+  height: auto;
+  width: 90%; }
+  .project img {
+    margin-bottom: 10%;
+    width: 60%;
+    height: 40%; }
+  .project a {
+    color: white; }
+
+.article2 {
+  background: linear-gradient(90deg, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
+  padding: 30px; }
+
+.lists {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column; }
+  .lists .list {
+    padding: 20px;
+    width: 90%;
+    border: 5px solid white;
+    margin: 10px 0px; }
+    .lists .list ul {
+      list-style-type: circle;
+      line-height: 1.7;
+      text-align: left; }
+
+.title {
+  background-color: #231C3B;
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.link {
+  margin-bottom: 30px;
+  display: inline-block;
+  transition: 0.3s; }
+
+.link:hover {
+  color: #e2e2e2; }
+
+td, th {
+  padding: 20px; }
+
+thead {
+  border: 1px solid white; }
+
+.awards {
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 0.7em;
+  table-layout: fixed; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #074676;
+  font-size: 20px; }
+  footer .contact {
+    display: inline-block;
+    text-align: center; }
+    footer .contact a {
+      margin: 10px; }
+      footer .contact a i {
+        transition: 0.3s;
+        color: grey;
+        font-size: 20px; }
+    footer .contact a:hover i {
+      color: white; }
+
+.projectHighlight {
+  background: linear-gradient(to bottom right, #84c8ff, #3434fc);
+  line-height: 1.5;
+  padding: 5%;
+  border-radius: 10px;
+  width: 90%;
+  margin-bottom: 30px; }
+  .projectHighlight p {
+    text-align: left; }
+  .projectHighlight img {
+    margin-bottom: 40px;
+    width: 60%;
+    height: 40%; }
+
+/*# sourceMappingURL=styleMobile.css.map */

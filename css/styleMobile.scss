@@ -195,27 +195,21 @@ button:hover {
 .project {
     background: linear-gradient(to right, #1400FF 5%, rgba(75,63,216,0.5) 40%, rgba(255,255,255,0) 90%, #83A6D0 110%),#247EE9;
     font-size: 25px;
-    padding: 30px;
-    border-radius: 20px;
-    margin: 10px 0px;
-    width: 45%;
-    height: 100vh;
     line-height: 1.5;
-    float: left;
+    padding: 5%;
+    border-radius: 20px;
+    height: auto;
+    width: 90%;
 
     img {
         margin-bottom: 10%;
-        width: 50%;
-        height: 30%;
+        width: 60%;
+        height: 40%;
     }
 
     a {
         color: white;
     }
-}
-
-.project:nth-child(2n) {
-    float: right;
 }
 
 .article2 {
@@ -224,16 +218,15 @@ button:hover {
 }
 
 .lists {
-    display: flex;
-    padding: 40px;
     margin-bottom: 10px;
-    max-width: 90%;
-    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
 
     .list {
         padding: 20px;
+        width: 90%;
         border: 5px solid white;
-        margin: 0px 10px;
+        margin: 10px 0px;
 
         ul {
             list-style-type: circle;
@@ -307,10 +300,10 @@ footer {
 
 .projectHighlight {
     background: linear-gradient(to bottom right, rgb(132, 200, 255), rgb(52, 52, 252));
-    padding: 2%;
     line-height: 1.5;
+    padding: 5%;
     border-radius: 10px;
-    width: 96%;
+    width: 90%;
     margin-bottom: 30px;
 
     p {
@@ -319,7 +312,7 @@ footer {
 
     img {
         margin-bottom: 40px;
-        width: 50%;
-        height: 30%;
+        width: 60%;
+        height: 40%;
     }
 }
