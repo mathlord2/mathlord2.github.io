@@ -167,8 +167,6 @@ button:hover {
   display: flex;
   flex-direction: column; }
   .lists .list {
-    padding: 3%;
-    width: 90%;
     border: 5px solid white;
     margin: 1% 0%; }
     .lists .list ul {
