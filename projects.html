@@ -33,17 +33,14 @@
   </div>
 
   <div class="projectHighlight">
-    <h1 align="center">Project Highlight (MasseyHacks VI 2020) - CogniTalk</h1>
-    <p>CogniTalk helps users prepare for interviews and maintain/improve their communication skills through practicing. After signing in using a Google or email account, the user can
-      generate a random interview question to answer to. They can record their response using the web app or upload a local .wav audio file. Once recorded/uploaded, the audio file gets
-      sent to a Flask backend server, which runs Python scripts for a Praat phonetics framework library that can analyze audio and return information about the user's performance.
-      This data gets sent to a Firestore database for storage, and the web app can also display a table showing the user's performances in past recordings and highlighting areas for improvement.
-      This project won second place at MasseyHacks VI.
+    <h1 align="center">Project Highlight - MyMotive</h1>
+    <p>While working as the CTO at MyMotive, a student-run startup that aims to help youth with their social lives, I led the development of an MVP mobile app that helps users create
+      private events and send RSVP invites to their friends. Other minor features include viewing the details of all of your RSVP'ed events and ordering an Uber ride to the event address.
     </p>
     <center>
-      <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/110/521/datas/gallery.jpg">
+      <img src="images/MyMotive.png">
       <br>
-      <a href="https://devpost.com/software/masseyhacks-2020" target="_blank"><button>Learn More</button></a>
+      <a href="https://expo.io/@mathlord2/MyMotive" target="_blank"><button>Try It Out</button></a>
     </center>
   </div>
 
@@ -53,12 +50,26 @@
 
   <div class="project">
     <div class="title">
+      <b>MasseyHacks VI 2020 - CogniTalk</b>
+    </div>
+    <p>CogniTalk helps users prepare for interviews and maintain/improve their communication skills through practicing. Users can generate a random interview question to respond to
+      and they can record their response on the app or upload an audio file. Once the audio is analyzed, the analysis is send to a table that helps the user view all of their performances.
+      This project won second place at MasseyHacks VI.
+    </p>
+    <center>
+      <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/110/521/datas/gallery.jpg">
+      <br>
+      <a href="https://devpost.com/software/masseyhacks-2020" target="_blank"><button>Learn More</button></a>
+    </center>
+  </div>
+
+  <div class="project">
+    <div class="title">
       <b>OpenHacks 2020 - Littermap</b>
     </div>
-    <p>Littermap is a web application that maps litter density in specific areas around the world on a global, real-time heatmap. The user can take a picture of a littered area
-      using the app's webcam and click a button to send the image to a Flask backend server, where a machine learning model will analyze it to determine the amount of litter in
-      the photo. This data, combined with the geolocation of the image obtained from an API, gets sent to a Firestore database for updating. The heatmap on the app uses the data
-      in this database to map litter hotspots.
+    <p>Littermap is a web application that maps litter density in specific areas around the world on a global, real-time heatmap. Users can take a picture of a littered area
+      using the app's webcam and send it to a machine learning model to determine the amount of litter in the photo, and the geolocation of this photo is displayed as a point
+      on the heatmap with an intensity related to the amount of litter.
     </p>
     <center>
       <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/103/048/datas/gallery.jpg">
@@ -71,7 +82,7 @@
     <div class="title">
       <b>Fresh-and-Rotten-Fruits</b>
     </div>
-    <p>Curious about methods of implementing machine learning models into web app, I created an application that classifies fresh and rotten fruits. A trained PyTorch CNN model
+    <p>Curious about methods of implementing machine learning models into web apps, I created an application that classifies fresh and rotten fruits. A trained PyTorch CNN model
       (with 0.07 evaluation loss and 99% evaluation accuracy on apples, oranges, and bananas) runs on a Flask backend server, and the frontend uploads fruit images
       to the backend, allowing the model to analyze them and return an output.
     </p>
@@ -87,9 +98,7 @@
       <b>TOHacks 2020 - COV-Vision</b>
     </div>
     <p>COV-Vision is a web platform that helps doctors diagnose COVID-19 in their patients via machine learning and send diagnostic data to them in a streamlined way.
-      Users sign in with their Google/email account via Firebase authentication. After a doctor logs in, they can upload an image of a patient's chest x-ray and send it to the Node.js
-      backend server, where a Keras ML model analyzes it and checks if the patient is tested positive or negative. This data then gets send to the patient, who can access
-      it via their own account, and is stored on a Firestore database. This project got an honourable mention for the Google Cloud Prize.
+      This project got an honourable mention for the Google Cloud Prize.
     </p>
     <center>
       <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/085/270/datas/gallery.jpg">
@@ -102,11 +111,9 @@
     <div class="title">
       <b>WinHacks 2020 - COV-AID</b>
     </div>
-    <p>COV-AID is a web application that greatly improves the process of receiving financial aid during the COVID-19 crisis with blockchain technology.
-      After a user logs in with Metamask, they can submit an image of their government ID, which is analyzed with Google Cloud's Vision API and a Javascript algorithm,
-      and the output is sent to an Express.js and MongoDB backend server through IPFS to determine if the user is eligible for financial aid. If eligible, Metamask and
-      our smart contracts will prompt the transaction in the blockchain, making the process very secure and efficient. Our project won WinHacks' Most Innovative Hack
-      against COVID-19 Award ($1000 CAD prize).
+    <p>COV-AID is a web application that greatly improves the process of receiving financial aid during the COVID-19 crisis.
+      It uses OCR to verify a user for aid eligibility and blockchain to securely send funds to them. Our project won WinHacks'
+      Most Innovative Hack against COVID-19 Award ($1000 CAD prize).
     </p>
     <center>
       <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/988/510/datas/gallery.jpg">
@@ -119,12 +126,8 @@
     <div class="title">
       <b>ETHDenver 2020 - TornadoCatch</b>
     </div>
-    <p>TornadoCatch is a DApp that raises awareness for network-level privacy issues on Ethereum. It uses a Node.js
-      catcher server to obtain data - wifi data through tshark and
-      on-chain data via web3.js - and matches these activities to allow for the de-anonymization of DApp users; our app
-      specifically de-anonymizes users of the cryptocurrency trading tool Tornado.cash.
-      This data is then saved on a JSON file and sent to a Chrome extension to display the links of the data (MAC address,
-      time, hash, URL).
+    <p>TornadoCatch is a DApp that raises awareness for network-level privacy issues on Ethereum. It uses a server to
+      obtain wifi and on-chain data and matches these activities to de-anonymize DApp users on Tornado.cash.
     </p>
     <center>
       <img src="images/TornadoCatch.png">
@@ -138,11 +141,7 @@
       <b>ETHWaterloo 2019 - Blocktalk</b>
     </div>
     <p>Blocktalk is a messaging web application that uses the IPFS protocol to encrypt user messages and store their
-      hashes in a blockchain.
-      This is then decrypted and the information is sent through JSON for the frontend to access it. We used Fortmatic's
-      login API to implement
-      an authentication process for the app and create an email address for other users to contact. Our project won
-      Fortmatic's 250 CAD (190 DAI) prize.
+      hashes in a blockchain. Our project won Fortmatic's 250 CAD (190 DAI) prize.
     </p>
     <center>
       <img src="images/blocktalk.jpg">
@@ -156,8 +155,7 @@
       <b>Hack The North 2019 - Easymoji</b>
     </div>
     <p>Easymoji is a Tkinter app that uses the webcam to capture a picture of your face and find an emoji that best
-    suits your facial expression. We used OpenCV for the webcam access and the face capturing, and the API we used to
-    determine the emotions is Microsoft Azure's Face API.</p>
+    suits your facial expression.</p>
     <center>
       <img src="images/easymoji_logo.jpg">
       <br>
@@ -170,8 +168,7 @@
       <b>JAMHacks 3 - OfflineAssist</b>
     </div>
     <p>At JAMHacks 3, our team of 4 created OfflineAssist, an offline Google-services provider, with the main service
-      being Google Assistant. Our entire program is run using a Linode server, and the user sends an SMS to a Twilio
-      number, which sends and receives requests from the Google APIs. Our team won 2nd place.</p>
+      being Google Assistant. Our team won 2nd place.</p>
     <center>
       <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/807/677/datas/gallery.jpg">
       <br>
@@ -183,7 +180,7 @@
     <div class="title">
       <b>Summer Project - Bibyou</b>
     </div>
-    <p>Using Firebase Authentication, Google App Engine, and Cloud Datastore, Bibyou allows you to track the sources for all of your assignments and can help you automatically cite
+    <p>Bibyou allows you to track the sources for all of your assignments and can help you automatically cite
       sources in MLA, APA, or Chicago 17th Edition. By a click of a button, you can also edit the sources yourself or
       copy the sources to your clipboard.</p>
     <center>
