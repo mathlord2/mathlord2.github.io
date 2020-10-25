@@ -8,7 +8,7 @@ html, body {
   background: linear-gradient(grey, #d4d4d4) fixed; }
 
 p {
-  font-size: 22px; }
+  font-size: 17px; }
 
 h1 {
   text-align: center;
@@ -50,7 +50,7 @@ h1 {
       margin: 0;
       text-transform: uppercase;
       font-size: 2.5em;
-      line-height: 1.5;
+      line-height: 180px;
       border-top: 1px solid #fff;
       border-bottom: 1px solid #fff;
       margin: 30px 0;
@@ -89,9 +89,9 @@ button {
   background-color: #0983ca;
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px;
   font-family: 'Ubuntu', sans-serif;
   border: none; }
 
@@ -122,8 +122,8 @@ button:hover {
 
 .bigtitle {
   background-color: #1C216B;
-  font-size: 50px;
-  padding: 40px;
+  font-size: 35px;
+  padding: 30px;
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -136,22 +136,24 @@ button:hover {
 
 .project {
   background: linear-gradient(to right, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 1.5;
   padding: 5%;
   border-radius: 20px;
   height: auto;
   width: 90%; }
   .project img {
-    margin-bottom: 10%;
-    width: 60%;
-    height: 40%; }
+    margin-bottom: 10%; }
+  .project .webApp {
+    width: 60%; }
+  .project .mobileApp {
+    width: 40%; }
   .project a {
     color: white; }
 
 .article2 {
   background: linear-gradient(90deg, #1400FF 5%, rgba(75, 63, 216, 0.5) 40%, rgba(255, 255, 255, 0) 90%, #83A6D0 110%), #247EE9;
-  padding: 30px; }
+  padding: 20px; }
 
 .lists {
   margin-bottom: 10px;
@@ -167,8 +169,8 @@ button:hover {
 
 .title {
   background-color: #231C3B;
-  font-size: 30px;
-  padding: 30px;
+  font-size: 20px;
+  padding: 20px;
   border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 10px; }
@@ -219,9 +221,13 @@ footer {
   margin-bottom: 30px; }
   .projectHighlight p {
     text-align: left; }
+  .projectHighlight h1 {
+    font-size: 25px; }
   .projectHighlight img {
-    margin-bottom: 40px;
-    width: 60%;
-    height: 40%; }
+    margin-bottom: 40px; }
+  .projectHighlight .webApp {
+    width: 60%; }
+  .projectHighlight .mobileApp {
+    width: 40%; }
 
 /*# sourceMappingURL=styleMobile.css.map */

@@ -171,14 +171,18 @@ button:hover {
   border-radius: 20px;
   margin: 10px 0px;
   width: 45%;
-  height: 100vh;
+  height: 80vh;
   line-height: 1.5;
   float: left;
 }
 .project img {
   margin-bottom: 10%;
-  width: 50%;
-  height: 30%;
+}
+.project .webApp {
+  width: 60%;
+}
+.project .mobileApp {
+  width: 15%;
 }
 .project a {
   color: white;
@@ -276,6 +280,11 @@ footer .contact a:hover i {
 }
 .projectHighlight img {
   margin-bottom: 40px;
+}
+.projectHighlight .webApp {
+  width: 60%;
+}
+.projectHighlight .mobileApp {
   width: 15%;
 }
 
