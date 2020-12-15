@@ -241,10 +241,15 @@ button:hover {
     margin-bottom: 30px;
     display: inline-block;
     transition: 0.3s;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: rgb(158, 158, 158);
+    background-color: white;
 }
 
 .link:hover {
-    color: rgb(226, 226, 226);
+    color: white;
+    background: none;
 }
 
 td, th {
@@ -316,5 +321,20 @@ footer {
     
     .mobileApp {
         width: 40%;
+    }
+}
+
+.dashed {
+    border-top: 3px dashed white;
+    margin: 20px 0px;
+}
+
+.links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    a {
+        margin: 10px 0px;
     }
 }

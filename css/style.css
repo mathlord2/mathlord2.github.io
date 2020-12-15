@@ -223,12 +223,19 @@ button:hover {
 
 .link {
   margin-bottom: 30px;
-  display: inline-block;
+  width: inherit;
   transition: 0.3s;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #9e9e9e;
+  background-color: white;
 }
 
 .link:hover {
-  color: #e2e2e2;
+  color: white;
+  background: none;
 }
 
 td, th {
@@ -286,6 +293,20 @@ footer .contact a:hover i {
 }
 .projectHighlight .mobileApp {
   width: 15%;
+}
+
+.dashed {
+  border-top: 3px dashed white;
+  margin: 100px 0px;
+}
+
+.links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.links a {
+  margin: 0px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
