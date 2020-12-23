@@ -246,4 +246,8 @@ footer {
   .links a {
     margin: 10px 0px; }
 
+#intro {
+  padding: 20px;
+  line-height: 2; }
+
 /*# sourceMappingURL=styleMobile.css.map */
