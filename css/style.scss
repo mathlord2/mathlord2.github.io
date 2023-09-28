@@ -187,7 +187,7 @@ button:hover {
     border-radius: 20px;
     margin: 10px 0px;
     width: 45%;
-    height: 90vh;
+    height: 95vh;
     line-height: 1.5;
     float: left;
 
@@ -200,7 +200,7 @@ button:hover {
     }
     
     .mobileApp {
-        width: 15%;
+        width: 18%;
     }
 
     a {
@@ -319,17 +319,12 @@ footer {
     }
 
     .webApp {
-        width: 60%;
+        width: 40%;
     }
 
     .mobileApp {
         width: 15%;
     }
-}
-
-.dashed {
-    border-top: 3px dashed white;
-    margin: 100px 0px;
 }
 
 .links {
